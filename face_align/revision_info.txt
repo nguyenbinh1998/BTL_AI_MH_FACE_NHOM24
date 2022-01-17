@@ -1,0 +1,7 @@
+arguments: train.py
+--------------------
+tensorflow version: 1.15.5
+--------------------
+git hash: b'980243f906c4b59119063ad5dd59800813e6dae3'
+--------------------
+b"diff --git a/detection.py b/detection.py\nindex eb48a98..d874318 100644\n--- a/detection.py\n+++ b/detection.py\n@@ -107,4 +107,4 @@ def run(model_checkpoint, classifier, video_file=None, output_file=None):\n \n \n if __name__ == '__main__':\n-    run('models', 'models/your_model.pkl', output_file='demo_input.avi')\n+    run('models', 'models/your_model.pkl',video_file= 'demo_input.mp4', output_file='demo_output.avi')"
